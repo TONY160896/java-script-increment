@@ -9,6 +9,7 @@
     height: 200px;
     margin: auto;
     background-image: linear-gradient(to bottom right, red, indigo);
+    margin-top: 49px;
 }
 button {
     /* background-color: blue; */
