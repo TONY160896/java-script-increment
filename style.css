@@ -1,0 +1,86 @@
+
+
+
+
+.count {
+    color: brown;
+    border: 1px solid black;
+    max-width: 500px;
+    height: 200px;
+    margin: auto;
+    background-image: linear-gradient(to bottom right, red, indigo);
+}
+button {
+    /* background-color: blue; */
+    color: white;
+    font-size: 17px;
+    padding: 9px;
+    margin-left: 12px;
+    background-color: black;
+    cursor: pointer;
+}
+
+.counter {
+    text-align: center;
+    color: black;
+    font-size: 49px;
+    margin-top: 32px;
+    padding-bottom: 4px;
+    font-family: 'Orbitron', sans-serif;
+}
+.buttondiv {
+    /* margin: auto; */
+    padding: 11px;
+   
+    width: fit-content;
+    margin: auto;
+    margin-top: -31px;
+}
+
+
+@media screen and (max-width: 720px)
+{
+    .buttondiv {
+        margin-top: -74px;
+    }
+    button#reset {
+        display: block;
+        margin-bottom: 21px;
+        margin-top: 22px;
+    }
+    .count {
+        padding-bottom: 143px;
+    }
+    
+    button#increase {
+        border: 1px solid black;
+        padding: 9px;
+        padding-left: 19px;
+        padding-right: 18px;
+        font-size: 19px;
+    }
+    button#reset {
+        display: block;
+        margin-bottom: 21px;
+        margin-top: 22px;
+        border: 1px solid black;
+        padding: 9px;
+        padding-left: 25px;
+        padding-right: 36px;
+        font-size: 19px;
+    }
+    button#decrease {
+        border: 1px solid black;
+        padding: 9px;
+        padding-left: 11px;
+        padding-right: 18px;
+        font-size: 19px;
+    }
+    .counter {
+        font-size: 80px;
+        padding-bottom: 22px;
+        color: white;
+    }
+    
+    
+}
